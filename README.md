@@ -21,14 +21,23 @@
 | `Split()`        | 🔪 Tách chuỗi theo biểu thức chính quy |
 
 ---
-## 🧠 Về nền tảng kỹ thuật
+## 🧠 Về nền tảng kỹ thuật 
 
 Thư viện **RegXHelper** được phát triển bằng **C++ Builder**, kế thừa trực tiếp từ thư viện **System.RegularExpressions** — một nền tảng mạnh mẽ, kết tinh từ kiến thức và kinh nghiệm của rất nhiều lập trình viên trong cộng đồng Delphi/C++ Builder qua nhiều thế hệ.
 
 RegXHelper không tái tạo lại hệ thống biểu thức chính quy. Thay vào đó, nó đóng vai trò như một lớp **wrapper trung gian**, giúp các ngôn ngữ như **VBA**, **VB6**, hoặc các môi trường **COM** có thể dễ dàng tiếp cận và sử dụng các tính năng biểu thức chính quy một cách trực quan, hiệu quả và thân thiện hơn.
 
-Tôi không viết lại biểu thức chính quy — tôi chỉ mở một cánh cửa để người dùng VBA có thể bước vào thế giới đó dễ dàng hơn.
+> Tôi không viết lại biểu thức chính quy — tôi chỉ mở một cánh cửa để người dùng VBA có thể bước vào thế giới đó dễ dàng hơn.
 
+---
+
+## 🧠 Technical Foundation 
+
+RegXHelper is developed using **C++ Builder**, built directly on top of the native **System.RegularExpressions** library — a powerful and mature engine shaped by the knowledge and contributions of many developers in the Delphi/C++ Builder community over generations.
+
+This project does not attempt to reinvent regular expressions. Instead, it serves as a clean and efficient **wrapper layer**, allowing languages like **VBA**, **VB6**, and other **COM environments** to easily access and utilize regular expression features in a more intuitive and user-friendly way.
+
+> I didn’t rewrite regular expressions — I simply opened a door so VBA users can walk into that world more easily.
 ---
 ## 🧪 Ví dụ sử dụng trong VBA (có sẵn trong file Excel)
 
