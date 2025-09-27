@@ -5,7 +5,6 @@
 📦 Không cần .NET, không cần cài đặt phức tạp — chỉ cần đăng ký DLL và sử dụng ngay trong Excel, Word, Access, hoặc bất kỳ môi trường COM nào.
 
 📁 Repo này có kèm theo file Excel ví dụ (`RegXHelper_Demo.xlsm`) để bạn dễ dàng thử nghiệm các hàm.
-
 ---
 
 ## 📌 Tính năng chính
@@ -22,7 +21,15 @@
 | `Split()`        | 🔪 Tách chuỗi theo biểu thức chính quy |
 
 ---
+## 🧠 Về nền tảng kỹ thuật
 
+Thư viện **RegXHelper** được phát triển bằng **C++ Builder**, kế thừa trực tiếp từ thư viện **System.RegularExpressions** — một nền tảng mạnh mẽ, kết tinh từ kiến thức và kinh nghiệm của rất nhiều lập trình viên trong cộng đồng Delphi/C++ Builder qua nhiều thế hệ.
+
+RegXHelper không tái tạo lại hệ thống biểu thức chính quy. Thay vào đó, nó đóng vai trò như một lớp **wrapper trung gian**, giúp các ngôn ngữ như **VBA**, **VB6**, hoặc các môi trường **COM** có thể dễ dàng tiếp cận và sử dụng các tính năng biểu thức chính quy một cách trực quan, hiệu quả và thân thiện hơn.
+
+Tôi không viết lại biểu thức chính quy — tôi chỉ mở một cánh cửa để người dùng VBA có thể bước vào thế giới đó dễ dàng hơn.
+
+---
 ## 🧪 Ví dụ sử dụng trong VBA (có sẵn trong file Excel)
 
 ```vb
