@@ -117,7 +117,7 @@ Thư viện được viết bằng C++ Builder, sử dụng `System.RegularExpre
 **Tác giả:** Kieu Manh  
 📧 Email: kieumanh366377@gmail.com  
 📱 Phone: 0929.278.279 | 0929.278.379  
-🛠 Phiên bản: 1.0 — Cập nhật lần cuối: 2025-06-06
+🛠 Phiên bản: 1.0 — Cập nhật lần cuối: 2025-09-27
 
 > Tôi không viết lại biểu thức chính quy — tôi chỉ mở một cánh cửa để người dùng VBA có thể bước vào thế giới đó dễ dàng hơn.
 ---
